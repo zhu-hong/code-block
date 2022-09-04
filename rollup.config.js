@@ -10,6 +10,7 @@ export default defineConfig({
     file: 'dist/index.js',
     sourcemap: false,
   },
+  external: ['prismjs', 'vue'],
   plugins: [
     commonjs(),
     nodeResolve(),
