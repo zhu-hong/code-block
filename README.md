@@ -6,6 +6,9 @@
 pnpm install @zhu-hong/code-block
 ```
 
+## example
+> https://code-block-sandy.vercel.app
+
 ## usage
 ```vue
 <script>
