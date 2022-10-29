@@ -18,7 +18,6 @@ export const CodeBlock = defineComponent({
   },
   methods: {
     async copy() {
-      console.log(1) 
       await navigator.clipboard.writeText(this.code)
       this.copySuccess = true
 
