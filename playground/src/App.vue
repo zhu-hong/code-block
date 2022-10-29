@@ -1,21 +1,11 @@
-<script>
-import { CodeBlock } from '../../src'
+<script setup>
+import { CodeBlock } from '../../src/index'
 import cfg from '../../vite.config?raw'
-
-export default {
-  components: {
-    CodeBlock,
-  },
-  data() {
-    return {
-      code: cfg,
-    }
-  },
-}
+import '../../style.css'
 </script>
 
 <template>
   <main class="w-screen h-screen flex justify-center items-center bg-gray-900 text-white">
-    <CodeBlock language="js" :code="code" :darkMode="true" class="min-w-1/2" />
+    <CodeBlock :code="cfg" class="min-w-1/2" />
   </main>
 </template>

@@ -1,4 +1,4 @@
-# VUE2 CodeBlock Component
+# VUE2/3 CodeBlock Component
 
 ## install
 
