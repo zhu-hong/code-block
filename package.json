@@ -1,11 +1,14 @@
 {
   "name": "@zhu-hong/code-block",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
-    "./*": "./*"
+    ".": {
+      "import": "dist/index.mjs",
+      "types": "dist/index.d.ts"
+    }
   },
   "sideEffects": false,
   "description": "easy code-block",
